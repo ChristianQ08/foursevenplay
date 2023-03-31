@@ -5,7 +5,7 @@ class ConexionModel{
     protected $conexion;
 
     public function connect(){
-        $this->conexion = mysqli_connect("localhost","root","Breaking14","foursevenplay");
+        $this->conexion = mysqli_connect("localhost","root","","foursevenplay");
         // if(mysqli_connect_errno()){
         //     echo "BD ERROR CONECTION".mysqli_connect_error();
         // }
